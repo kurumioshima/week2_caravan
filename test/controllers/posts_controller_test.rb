@@ -1,8 +1,8 @@
 require 'test_helper'
 
-class BlogsControllerTest < ActionDispatch::IntegrationTest
+class PostsControllerTest < ActionDispatch::IntegrationTest
   test "should get new" do
-    get blogs_new_url
+    get posts_new_url
     assert_response :success
   end
 
