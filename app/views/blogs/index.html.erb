@@ -43,7 +43,7 @@
           <%= image_tag "img/forest.jpg", class:"blog-image" %>
           <section class="blog-text">
             <h3 class="blog-text-headline">
-                <%= link_to (blog.title), "/blogs/#{blog.id}" %>
+                <%= link_to (blog.title), blog_path(blog.id) %>
             </h3>
                 <p class="blog-date">June 19, 2017</p>
                   <span class="category"><%= blog.category %></span>
